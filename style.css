@@ -1,0 +1,53 @@
+
+
+
+.btn {
+  border: 0;
+  border-radius: 15px;
+  height: 30px;
+  width: 50px;
+  margin-right: 10px;
+  background-color: rgb(230, 230, 230);
+  float: left;
+}
+
+.btn:hover {
+  background-color: rgb(118, 255, 118);
+}
+
+#display {
+  border: 0;
+  margin-left: 20px;
+  border-radius: 15px;
+  height: 10px;
+  padding: 10px;
+  width: 200px;
+  padding-left: 20px;
+  background-color: rgb(230, 230, 230);
+}
+
+#display:hover {
+  background-color: rgb(118, 255, 118);
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 60px);
+}
+
+button {
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.operator:hover {
+  background-color: rgb(118, 255, 118);
+}
+
+.clear:hover {
+  background-color: rgb(118, 255, 118);
+}
+
+.equal:hover {
+  background-color: rgb(118, 255, 118);
+}
